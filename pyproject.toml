@@ -4,11 +4,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bytecorecompiler"
-version = "1.0.0"
+version = "1.0.1"
 authors = [
   { name="Joakim Winum Lien", email="joakim@winum.xyz" },
 ]
 description = "A compiler that transforms ByteCore assembly code into executable memory bytes, seamlessly bridging the gap between high-level assembly instructions and the ByteCore Emulator's low-level functionality."
+dependencies = [
+  "bytecore==1.1.0"
+]
 readme = "README.md"
 requires-python = ">=3.11"
 classifiers = [
