@@ -29,8 +29,9 @@ The compiler adheres to specific rules to ensure the correct interpretation of B
 - Ignores text after a semicolon (`;`), which denotes a comment.
 - Requires lines to have exactly 0 or 3 tokens, not counting comments.
 - Expects the first two tokens of a line to represent numbers in hexadecimal format (0-255).
-- Requires the third token to be a valid opcode or a hexadecimal number corresponding to one of the specific opcodes (0, 1, 2, 4, 8, 16, 32).
+- Requires the third token to be either a valid opcode or a valid data value. Data values must be hexadecimal numbers ranging from 0 to 255 (00 to FF).
 - Prohibits assigning data to a memory address that has already been set.
+- Every opcode, except for `HALT`, expects an extended memory address to follow. For more details on how extended memory addresses are used within the ByteCore CPU's big-endian memory architecture, see the [Addressing Modes](https://github.com/joakimwinum/bytecore?tab=readme-ov-file#addressing-modes) section.
 
 ### Instructions
 
