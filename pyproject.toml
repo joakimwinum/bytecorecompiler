@@ -10,7 +10,7 @@ authors = [
 ]
 description = "A compiler that transforms ByteCore assembly code into executable memory bytes, seamlessly bridging the gap between high-level assembly instructions and the ByteCore Emulator's low-level functionality."
 dependencies = [
-  "bytecore==1.1.1"
+  "bytecore==1.1.2"
 ]
 readme = "README.md"
 requires-python = ">=3.11"
