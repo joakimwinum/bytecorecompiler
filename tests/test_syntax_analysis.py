@@ -3,10 +3,6 @@ from bytecorecompiler.syntax_analysis import SyntaxAnalysis, WrongNumberOfTokens
 
 
 class TestSyntaxAnalysis:
-    def test_dummy_test(self) -> None:
-        # Arrange, act and assert
-        assert 0 == 0
-
     def test__parse__one_line_of_valid_tokens__does_not_raise_exception(self) -> None:
         # Arrange
         tokens = ['00', '00', 'LOAD', '\n']

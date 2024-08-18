@@ -4,10 +4,6 @@ from bytecorecompiler.syntax_tree import SyntaxTree
 
 
 class TestSemanticAnalysis:
-    def test_dummy_test(self) -> None:
-        # Arrange, act and assert
-        assert 0 == 0
-
     def test__parse__two_lines_assigning_to_same_memory_address__raises_duplicate_memory_address_assignment(self) -> None:
         # Arrange
         syntax_trees: list[SyntaxTree] = [

@@ -4,10 +4,6 @@ from bytecorecompiler.semantic_analysis import SemanticAnalysisException, Missin
 
 
 class TestParser:
-    def test_dummy_test(self) -> None:
-        # Arrange, act and assert
-        assert 0 == 0
-
     def test__init__empty_input__does_not_raise_exception(self) -> None:
         # Arrange
         string = ''

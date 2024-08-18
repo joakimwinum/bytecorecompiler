@@ -2,10 +2,6 @@ from bytecorecompiler.syntax_tree import SyntaxTree
 
 
 class TestSyntaxTree:
-    def test_dummy_test(self) -> None:
-        # Arrange, act and assert
-        assert 0 == 0
-
     def test__init__instantiating_syntax_tree__does_not_raise_exception(self) -> None:
         # Arrange
         msb = '00'

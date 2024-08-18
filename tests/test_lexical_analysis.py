@@ -2,10 +2,6 @@ from bytecorecompiler.lexical_analysis import LexicalAnalysis
 
 
 class TestLexicalAnalysis:
-    def test_dummy_test(self) -> None:
-        # Arrange, act and assert
-        assert 0 == 0
-
     def test__parse__empty_input__returns_one_newline_token(self) -> None:
         # Arrange
         expected = ['\n']

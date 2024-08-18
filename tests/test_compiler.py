@@ -4,10 +4,6 @@ from bytecorecompiler.compiler import Compiler
 
 
 class TestCompiler:
-    def test_dummy_test(self) -> None:
-        # Arrange, act and assert
-        assert 0 == 0
-
     def test__get_memory_bytes__no_input__gets_expected_memory_bytes(self) -> None:
         # Arrange
         memory_bytes = Memory.get_default_memory_bytes()

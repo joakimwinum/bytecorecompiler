@@ -4,10 +4,6 @@ from bytecore.byte import Byte
 
 
 class TestExamples:
-    def test_dummy_test(self) -> None:
-        # Arrange, act and assert
-        assert 0 == 0
-
     def test__get_memory_bytes__simple_example_program__halts_and_last_memory_location_contains_expected_value(self) -> None:
         # Arrange
         expected = Byte(50)
