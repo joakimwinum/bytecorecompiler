@@ -51,9 +51,9 @@ Install required dependencies with:
 pip3 install -r requirements.txt
 ```
 
-### Gitpod
+### Codespaces
 
-Alternatively, use Gitpod for a pre-configured environment by clicking [here](https://gitpod.io/#https://github.com/joakimwinum/bytecorecompiler).
+Alternatively, use Codespaces for a pre-configured environment by clicking [here](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=joakimwinum/bytecorecompiler).
 
 ## Usage
 
