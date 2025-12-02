@@ -2,7 +2,7 @@ pytest>=8.1.1,<8.5.0
 autopep8>=2.1.0,<2.4.0
 flake8
 coverage
-mypy>=1.9.0,<1.19.0
+mypy>=1.9.0,<1.20.0
 build
 setuptools>=61.0
 types-setuptools
